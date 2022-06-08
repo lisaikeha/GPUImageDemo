@@ -31,13 +31,16 @@
     GPUImagePicture *stillImageSource = [[GPUImagePicture alloc]initWithImage:inputImage];
     //添加上滤镜
     [stillImageSource addTarget:self.filter];
+    GPUImageView *imageView = [[GPUImageView alloc] init];
+    imageView.frame = CGRectMake(50,0,250 ,250);
+    [self.filter addTarget:imageView];
     //开始渲染
     [stillImageSource processImage];
     //获取渲染后的图片
-    UIImage *newImage = [self.filter imageFromCurrentFramebuffer];
+//    UIImage *newImage = [self.filter imageFromCurrentFramebuffer];
     //加载出来
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:newImage];
-    imageView.frame = CGRectMake(50,0,250 ,250);
+//    UIImageView *imageView = [[UIImageView alloc] initWithImage:newImage];
+//    imageView.frame = CGRectMake(50,0,250 ,250);
     [self.view addSubview:imageView];
     UILabel *tips = [[UILabel alloc] initWithFrame:CGRectMake(50, 250, 200, 30)];
     tips.text = @"原图";

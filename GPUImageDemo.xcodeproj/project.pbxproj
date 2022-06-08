@@ -32,6 +32,7 @@
 		D75ADC2628504FAF00258F8C /* DN.m in Sources */ = {isa = PBXBuildFile; fileRef = D75ADC2528504FAF00258F8C /* DN.m */; };
 		D75ADC292850625D00258F8C /* Sharpen.m in Sources */ = {isa = PBXBuildFile; fileRef = D75ADC282850625D00258F8C /* Sharpen.m */; };
 		D75ADC2C2850661D00258F8C /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75ADC2B2850661D00258F8C /* DemoViewController.m */; };
+		D75ADC2E28506CC000258F8C /* ebg.mov in Resources */ = {isa = PBXBuildFile; fileRef = D75ADC2D28506CC000258F8C /* ebg.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		D75ADC282850625D00258F8C /* Sharpen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sharpen.m; sourceTree = "<group>"; };
 		D75ADC2A2850661D00258F8C /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		D75ADC2B2850661D00258F8C /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		D75ADC2D28506CC000258F8C /* ebg.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ebg.mov; sourceTree = "<group>"; };
 		FCB4210E67F695F228D273EE /* libPods-GPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 		0313464E2150CBE70054F1D4 /* GPUImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D75ADC2D28506CC000258F8C /* ebg.mov */,
 				D75ADBFC28503EC700258F8C /* Filters */,
 				D75ADC2A2850661D00258F8C /* DemoViewController.h */,
 				D75ADC2B2850661D00258F8C /* DemoViewController.m */,
@@ -350,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0313465C2150CBE90054F1D4 /* LaunchScreen.storyboard in Resources */,
+				D75ADC2E28506CC000258F8C /* ebg.mov in Resources */,
 				031346592150CBE90054F1D4 /* Assets.xcassets in Resources */,
 				031346572150CBE80054F1D4 /* Main.storyboard in Resources */,
 			);
